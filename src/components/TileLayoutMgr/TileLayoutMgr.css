@@ -1,0 +1,24 @@
+.TileLayoutMgr {
+}
+
+.TileLayoutMgr .react-grid-layout {
+  width: 100%;
+}
+
+.TileLayoutMgr .react-grid-item {
+  border: 1px solid #418387;
+}
+
+.TileLayoutMgr .react-grid-placeholder {
+  background-color: #418387;
+}
+
+.TileLayoutMgr-EmptyMessage {
+  margin: 30% 0;
+  text-align: center;
+}
+
+.TileLayoutMgr-AddItem {
+  margin: 20px auto;
+  text-decoration: none;
+}

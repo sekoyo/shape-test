@@ -1,0 +1,25 @@
+.Button {
+	display: block;
+	appearance: none;
+	padding: 10px 15px;
+	border: 1px solid #418386;
+	border-radius: 4px;
+	background-color: transparent;
+	font-size: inherit;
+	color: #418386;
+}
+
+.Button:not(:disabled):focus {
+	border-color: #76dce0;
+	outline: none;
+}
+
+.Button:not(:disabled):hover {
+	background-color: #418386;
+	border-color: #418386;
+	color: white;
+}
+
+.Button:disabled {
+	opacity: 0.3;
+}

@@ -1,0 +1,20 @@
+.IconButton {
+  display: block;
+  appearance: none;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.IconButton--large {
+  width: 32px;
+}
+
+.IconButton--small {
+  width: 16px;
+}
+
+.IconButton .Icon {
+  display: block;
+}
